@@ -1,3 +1,9 @@
+
+let shortHex;
+// Do not change the code below.
+ shortHex= prompt("Enter Short Hex.");
+alert(extendHex(shortHex));
+
 let i=shortHex.length-3,temp="#",isAnyCapital=false;
 const extendHex = (shortHex) => {
   while (i<shortHex.length) {
@@ -13,7 +19,3 @@ const extendHex = (shortHex) => {
 	}
 	return temp;
 };
-const shortHex;
-// Do not change the code below.
- shortHex= prompt("Enter Short Hex.");
-alert(extendHex(shortHex));
